@@ -5,24 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Near</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 <div>
-    <h1><strong>Near</strong></h1> <!--Name of the company-->
-    <h2>Providing Peace of Mind As Your Loved Ones Age at Home</h2> <!--Tagline for the company-->
-    <h4><em>home: /hom/ is a place that feels familiar and feels good; it is a place that comes without question
-    , a place that is waiting for you day in and day out, a place that is yours. Home is a place that just
-    feels right 
-    <!-- Additional information about the title -->
-</em></h4>
+    <div class = "md: w-full pt-8">
+    <h1 class = "text-center text-6xl text-green-800"><strong>Near</strong></h1> <!--Name of the company-->
+    </div>
+
+    <div class = "md: w-full p-4">
+    <h2 class = "text-center text-3xl text-green-400">Providing Peace of Mind As Your Loved Ones Age at Home</h2> <!--Tagline for the company-->
+    </div>
 </div>
-    <div><img src = "Index Image.png"> </div>
 </head>
+
 <body>
-    <div><strong> Find out more about what we do</strong></div>
+
+    <div class="md:flex m-4"> <!--the beginning of the body of the webpage-->
+    <div><img src = "Index Image.png"> </div> <!--main index image-->
+
+    <div class = "p-8 text-center"><em>home: /hom/ is a place that feels familiar and feels good; it is a place that comes without question
+        , a place that is waiting for you day in and day out, a place that is yours. Home is a place that just
+        feels right.</em>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <p class = "text-xl"><strong>Near</strong> offers technology helping hand and first in line tech support</p>
+        <!-- Additional information about the title -->
+    </div>
+
+    </div>
+
+    <div class = "m-4 text-3xl"><strong> Find out more about what we do</strong></div>
 
     <ul>
-        <li><a href=about_us.html>About Us</a></li>
-        <li><a href=services.html>Services</a></li>
+        <button class ="ml-4 block mt-4 text-white bg-green-500 rounded px-4 py-2"><a href=about_us.html>About Us</a></button>
+        <button class ="ml-4 block mt-4 text-white bg-green-500 rounded px-4 py-2"><a href=services.html>Services</a></button>
     </ul>
+
+<div> <!--SUBSCRIBE TO OUR NEWSLETTER-->
+    <h1 class="m-4 text-center text-green-800 text-2xl">Subscribe to our newsletter!</h1>
+</div>
+
+<div class="m-8"> <!--Newsletter form-->
+    <form netlify>
+        <label class="ml-8 block mt-4 font-bold" for="name">Your Name</label>
+        <input class="ml-8 p-2 w-64 border border-green-400 rounded shadow-xl focus:outline-none focus:ring-green-500
+        focus:border-green-500 text-center" type="text" id="name" name="name">
+      
+        <label class="ml-8 block mt-4 font-bold" for="email">Your Email</label>
+        <input class="ml-8 p-2 w-64 border border-green-400 rounded shadow-xl focus:outline-none focus:ring-green-500
+        focus:border-green-500" type="text" id="email" name="email">
+      
+        <label class="ml-8 block mt-4 font-bold" for="order">Share your tech needs!</label>
+        <textarea class="ml-8 mr-10 p-2 w-full border border-green-400 rounded shadow-xl focus:outline-none focus:ring-green-500
+        focus:border-green-500" type="text" id="order" name="share"></textarea>
+
+        <button class="ml-8 block mt-4 text-white bg-green-800 rounded px-4 py-2">Submit</button>
+      </form>
+</div>
 
 </body>
 </html>

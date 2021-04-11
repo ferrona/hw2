@@ -5,28 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Near Services</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
-    <h1>Services</h1>
-    <h2>When other neighbors offer sugar, the Near <em>Neighbors</em> have these to offer</h2>
+    <h1 class = "text-center text-6xl text-green-800 m-4"><strong>Services</strong></h1>
+    <h2 class ="text-center text-2xl text-green-300 mb-8">When other neighbors offer sugar, the Near <em>Neighbors</em> have these to offer</h2>
 <body>
-    <div><h3>Tech Private Lessons</h3></div>
-        <div><p>In these private lessons, Near Neighbors will coach you on how to use any device, apps, or programs you’d like to learn. 
-        We set up goals in advance, and you pay when you feel like you’ve achieved those goals. 
-        We’ll stay with you until you get ‘em right!</p></div>
-        <div><p>$50/lesson</p></div>
-    <div><h3>Device Consultation</h3></div>
-        <div><p>Want to get a new device but not sure where to start? This is for you! During this time, we will answer immediate tech-related questions, understand more about your tech aspirations, 
-            and leave behind ideas and resources for making tech work better for you and your family.</p></div>
-        <div><p>Free!</p></div>
-    <div><h3>Set up and consultation</h3></div>
-            <div><p>If you have trouble setting up new devices, we’re here to help. Simply let us know what it is, 
-            and we’ll make sure they’re ready to go by the time we leave your house!</p></div>
-        <div><p>$75/session</p></div>
-        <div><p>$150 set up + in person lesson</p></div>
-    
+    <div class = "md:flex"> <!--webpage content-->
+        <div class="m-2"> <!--Tech Private Lesson-->
+            <div class = "text-xl"><h3>Tech Private Lessons</h3></div>
+                <div><p>In these private lessons, Near Neighbors will coach you on how to use any device, apps, or programs you’d like to learn. 
+                We set up goals in advance, and you pay when you feel like you’ve achieved those goals. 
+                We’ll stay with you until you get ‘em right!</p></div>
+                <div><p>$50/lesson</p></div>
+        </div>
+        
+        <div class="m-2"><!--Device Consultation-->
+            <div class = "text-xl"><h3>Device Consultation</h3></div>
+                <div><p>Want to get a new device but not sure where to start? This is for you! During this time, we will answer immediate tech-related questions, understand more about your tech aspirations, 
+                    and leave behind ideas and resources for making tech work better for you and your family.</p></div>
+                <div><p>Free!</p></div>
+        </div>
+
+        <div class="m-2"> <!--Set up and consultation-->
+            <div class = "text-xl"><h3>Set up and consultation</h3></div>
+                    <div><p>If you have trouble setting up new devices, we’re here to help. Simply let us know what it is, 
+                    and we’ll make sure they’re ready to go by the time we leave your house!</p></div>
+                <div><p>$75/session</p></div>
+                <div><p>$150 set up + in person lesson</p></div>
+        </div>
+    </div>
+
     <div><ul>
-        <li><a href=index.html>Homepage</a></li>
-        <li><a href=about_us.html>About Us</a></li>
+        <button class ="ml-4 block mt-4 text-white bg-green-500 rounded px-4 py-2"><a href =index.html> Homepage</a></button>
+        <button class ="ml-4 block mt-4 text-white bg-green-500 rounded px-4 py-2"><a href=about_us.html>About Us</a></button>
     </ul>
     </div>
     <!--  -->
